@@ -1,0 +1,30 @@
+#social-buttons img{
+	width: 30px;
+	height: 30px;
+}
+#social-buttons a{
+	display: block;
+	height: 30px;	
+	width: 30px;
+	text-decoration: none;
+	border: 1px solid #FFF;
+	float:left;
+}
+
+/*Hier wird die jeweilige Farbe des Icons als eigenständiger Hintergrund gesetzt*/
+#social-buttons a:nth-child(1) { background: #28AAE1; }
+#social-buttons a:nth-child(2) { background: #4A6EA9; }
+#social-buttons a:nth-child(3) { background: #DA4835; }
+
+/*Geschwindigkeit der Animation*/
+#social-buttons img{
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+/*Verschiebung nach oben*/
+#social-buttons a:hover img{
+	margin-top: -10px;
+}
